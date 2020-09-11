@@ -62,6 +62,8 @@ ul li:hover
     margin-right: auto;
     padding-top: 3vw;
     padding-bottom: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     background-color: rgb(26, 26, 26);
 }
 
