@@ -2,6 +2,7 @@ body
 {
     background-color: rgb(20, 20, 20);
     margin: 0 !important;
+    font-family: 'Changa', sans-serif;
 }
 
 #logo
@@ -41,7 +42,6 @@ ul li
     width: 25%;
     height: 6vh;
     font-size: 3vh;
-    font-family: 'Changa', sans-serif;
     transition: .5s all ease;
 }
 
@@ -49,6 +49,20 @@ ul li:hover
 {
     background-color: #fff;
     color: #cf2c2c;
+}
+
+#welcome
+{
+    font-size: 2vw;
+    text-align: center;
+    color: #fff;
+    margin-top: 10vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: rgb(26, 26, 26);
 }
 
 /****************************************/
@@ -70,6 +84,25 @@ ul li:hover
     {
         font-size: 3vw;
         height: 3vh;
+    }
+  
+}
+
+@media only screen and (min-width: 1500px)
+{
+
+    #welcome
+    {
+        font-size: 1vw;
+        text-align: center;
+        color: #fff;
+        margin-top: 6vw;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        background-color: rgb(26, 26, 26);
     }
   
 }
